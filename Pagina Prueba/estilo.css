@@ -1,0 +1,178 @@
+html{
+    box-sizing: border-box  ;
+    font-size: 62.5%;
+
+}
+body{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: transparent;
+    width: 100%;
+    z-index: 1;
+
+}
+
+img{
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    box-shadow: 7px 7px 18px #999;
+}
+
+.contenedor_prin{
+	width: 100%;
+	height: auto;
+}
+
+
+#foto_fondo {
+	background-image: url('all img/feat-700x473.png');
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 14.4em 0;
+	position: relative;
+	background-attachment: fixed;
+	
+}
+
+
+#foto_fondo:before {
+	content:'' ;
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.56);
+}
+
+#foto_fondo h1 {
+	font-size: 60px;
+	color: #fff;
+	position: relative;
+	
+}
+
+nav{
+	position: relative;
+	float: left;
+	margin-top: -210px;
+	width: 100%;
+	height: auto;
+}
+
+
+
+.menu_rap, .li{
+        margin-right: 2rem;
+        text-decoration: none;
+    }
+    .menu_rap, .texto{
+        display: inline-flex;
+        list-style: none;
+    }
+    .menu_rap ul ul{
+        display: none;
+    }
+    .menu_rap a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.8rem; 
+        }
+    .menu_rap a:hover{
+            color:#ffffff;
+    }
+    .menu_rap a:last-of-type{
+            margin: 0;
+        }
+    .menu_rap, .li ul :hover ul{
+        display: block;
+        position: absolute;
+        padding: 0;
+    }
+#all_text{
+	text-align: center;
+}
+
+#que_es{
+	background-color: #ffffff;
+	padding-top: 1.75em;
+	padding-bottom: 2.4em
+;
+}
+.que_es{
+	padding-bottom: .5em;
+	font-size: 2.4em;
+	font-family: 'Playfair Display', serif;
+
+}
+
+.la_auto{
+	margin: 10px 50px;
+
+}
+
+#su_histo{
+	background-color: #E5E7EA;
+	text-align: left;
+	margin: 10px 40px
+	display:block;
+}
+#su_histo h4{
+	font-family:  'Playfair Display', serif;
+	font-size: 2.4em;
+	padding: .5em .5em;
+	text-align: center;
+}
+li{
+	padding: 5px 45px;
+	
+
+}
+
+.hist_1{
+	padding: 0% 40px;
+}
+
+.tabla_2{
+	background-color: #transparent;
+	z-index: 100;
+
+}
+.tabla_ a:before{
+	content: "·";
+	font-size: 2em;
+	
+}
+
+#all_baja{
+	background-color: #F0F2DF;
+}
+
+#all_baja h5{
+	font-family:  'Playfair Display', serif;
+	font-size: 2.4em;
+	padding: .5em .5em;
+	text-align: center;
+}
+
+.baja_1 {
+	padding: .7% 50px 1%;
+	text-align: justify;
+}
+
+#all_baja ul{
+	text-align: left;
+}
+
+#niño {
+	display: inline-block;
+	float: right;
+	width: 42%;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 30px;
+}
